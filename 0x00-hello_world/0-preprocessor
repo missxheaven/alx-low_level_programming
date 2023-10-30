@@ -1,17 +1,2 @@
-# Get the C file name from the user
-echo "Please enter the name of the C file:"
-read cfile
-
-# Run the C file through the preprocessor
-gcc -E "$cfile"
-
-'int main(void)';
-
-#2 "main.c" 2
-
-
-# 3 "main.c"
-{
-return (0);
-
-}
+#!/bin/bash
+gcc -E main.c
